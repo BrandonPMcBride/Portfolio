@@ -12,3 +12,42 @@
   .projects h3 {
     display: inline;
   }
+
+  .contact h3 {
+    display: inline;
+  }
+
+  nav {
+    display: flex;
+    align-items: end;
+    padding: var(--spacing-3) 0;
+  }
+
+  .navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  #typewriter {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: black;
+    white-space: nowrap;
+    border-right: 2px solid #333;
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: #333;
+    }
+  }
+  
